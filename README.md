@@ -1,4 +1,7 @@
 # mrf-japanese-romaji-translator
+
+利用MRF给日语句子注音的工具
+
 ## 1.安装
 ### 1.1 文件介绍
 - [mrf.py](./mrf.py) mrf 注音算法主要部分，程序入口
