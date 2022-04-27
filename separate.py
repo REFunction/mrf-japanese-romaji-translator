@@ -27,7 +27,6 @@ def separate_japanese_mecab(japanese: str) -> str:
 def separate_japanese(japanese: str, word_dict: dict):
     # 先用mecab分词
     result = separate_japanese_mecab(japanese)
-    print(result)
     # 检查每个词，如果词典里没有，再用最长前缀匹配分词
     new_result = []
     keys = word_dict.keys()

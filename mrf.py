@@ -1,8 +1,4 @@
-from cgi import test
-import enum
 import json
-from unittest import result
-from typing import List
 from separate import separate_japanese
 from special_chars import special_chars
 
@@ -127,4 +123,5 @@ if __name__ == '__main__':
     translator = Translator()
     test_japanese = '今宵は灯火がいくつ辿り着くのだろう'
     romaji = translator.get_romaji_from_japanese(test_japanese)
+    print(test_japanese)
     print(romaji)
