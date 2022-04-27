@@ -22,7 +22,9 @@ pip3 install mecab-python-windows
 python3 mrf.py
 ```
 效果如下
+
 ![demo1](./demo1.jpg)
+
 你可以在代码里替换成任何你想要尝试注音的日语句子
 ## 3.原理
 ### 3.1 分词
